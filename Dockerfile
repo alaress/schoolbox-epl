@@ -19,10 +19,10 @@ RUN \
   apt-get autoremove -y && \
   rm -rf /var/lib/apt/lists/*
 RUN \
-  wget -c https://github.com/ether/etherpad-lite/archive/1.5.2.tar.gz && \
-  tar xzf 1.5.2.tar.gz && \
-  rm -vf 1.5.2.tar.gz && \
-  mv etherpad-lite-1.5.2 /usr/share/schoolbox-epl && \
+  wget -c https://github.com/ether/etherpad-lite/archive/1.5.7.tar.gz && \
+  tar xzf 1.5.7.tar.gz && \
+  rm -vf 1.5.7.tar.gz && \
+  mv etherpad-lite-1.5.7 /usr/share/schoolbox-epl && \
   cd /usr/share/schoolbox-epl/src && \
   npm install && \
   npm install redis && \
