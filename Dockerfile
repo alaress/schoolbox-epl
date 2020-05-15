@@ -1,9 +1,9 @@
 # Inspired by https://github.com/ether/etherpad-lite/blob/develop/Dockerfile
 FROM node:alpine3.11
-LABEL version="1.8.0"
+LABEL version="1.8.3"
 LABEL maintainer="IST Schoolbox <ist@schoolbox.com.au>"
 
-ARG ETHERPAD_VERSION=1.8.0
+ARG ETHERPAD_VERSION=1.8.3
 ARG ETHERPAD_PLUGINS="redis ep_disable_change_author_name ep_headings"
 ARG PKGS_TO_DEL="make gcc g++ linux-headers openssl" 
 ARG DIRS_TO_DEL="/var/cache/apk/*" 
