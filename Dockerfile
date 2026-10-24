@@ -1,4 +1,4 @@
-FROM etherpad/etherpad:2.1.1
+FROM etherpad/etherpad:3.3.11
 ARG ETHERPAD_PLUGINS="redis ep_disable_chat ep_disable_change_author_name ep_headings"
 ARG API_KEY
 ARG SESSION_KEY
