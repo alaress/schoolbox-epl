@@ -1,0 +1,17 @@
+/*
+ * Schoolbox overrides, read over the image's settings.json at startup
+ * (entrypoint.sh passes it as --credentials). Each top-level key replaces the
+ * same key in settings.json; object keys are merged one level deep, so only
+ * the toolbar's right-hand side is changed here.
+ */
+{
+  "toolbar": {
+    // Upstream's default without the "home" button, which would take the
+    // pad's frame in Schoolbox to Etherpad's own landing page
+    "right": [
+      ["importexport", "timeslider", "savedrevision"],
+      ["settings", "embed"],
+      ["showusers"]
+    ]
+  }
+}

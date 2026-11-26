@@ -46,9 +46,11 @@ Once successful, you should be able to access http://localhost:9001
 
 ## Installed plugins
 
-- redis
+- ep_disable_chat
 - ep_disable_change_author_name
-- ep_headings
+- ep_headings2
+
+Etherpad 3 ships the Redis driver, so it is no longer installed as a plugin.
 
 ## Environment Variables
 
